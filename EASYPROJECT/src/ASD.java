@@ -9,9 +9,6 @@ import javax.swing.JTextField;
 
 
 public class ASD extends JFrame {
-	int a=80, b, c=6;
-	String d;
-	Double v;
 	ASD(){
 		JPanel panel=new JPanel();
 		panel.setLayout(null);
@@ -26,7 +23,7 @@ public class ASD extends JFrame {
 		t1.setLocation(10,50);
 		panel.add(t1);
 		
-		JButton button = new JButton("Кнопка"); 
+		JButton button = new JButton("Пока"); 
 		button.setSize(110, 35); 
 		button.setLocation(10,90);
 		button.setForeground(new Color(0,0,0));
