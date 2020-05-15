@@ -23,7 +23,7 @@ public class ASD extends JFrame {
 		t1.setLocation(10,50);
 		panel.add(t1);
 		
-		JButton button = new JButton("Пока"); 
+		JButton button = new JButton("Прощайте."); 
 		button.setSize(110, 35); 
 		button.setLocation(10,90);
 		button.setForeground(new Color(0,0,0));
