@@ -23,7 +23,7 @@ public class ASD extends JFrame {
 		JPanel panel=new JPanel();
 		panel.setLayout(null);
 		
-		JLabel l1 = new JLabel("Привет");
+		JLabel l1 = new JLabel("Здравствуйте");
 		l1.setSize(250,35);
 		l1.setLocation(10,10);
 		panel.add(l1);
