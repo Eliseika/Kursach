@@ -14,9 +14,14 @@ public class ASD extends JFrame {
 		panel.setLayout(null);
 		
 		JLabel l1 = new JLabel("Здравствуй!");
-		l1.setSize(250,35);
+		l1.setSize(100,35);
 		l1.setLocation(10,10);
 		panel.add(l1);
+		
+		JLabel l2 = new JLabel("дорогой");
+		l2.setSize(100,35);
+		l2.setLocation(110,10);
+		panel.add(l2);
 		
 		JTextField t1 = new JTextField("");
 		t1.setSize(110,35);
@@ -36,7 +41,7 @@ public class ASD extends JFrame {
 		panel.add(button); 
 		
 		setContentPane(panel);
-		setSize(190,190);
+		setSize(500,190);
 		setVisible(true);
 	}
 	public static void main(String[] args) {
