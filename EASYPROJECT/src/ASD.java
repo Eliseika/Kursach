@@ -18,6 +18,11 @@ public class ASD extends JFrame {
 		l1.setLocation(10,10);
 		panel.add(l1);
 		
+		JLabel l3 = new JLabel("друг");
+		l3.setSize(100,35);
+		l3.setLocation(220,10);
+		panel.add(l3);
+		
 		JTextField t1 = new JTextField("");
 		t1.setSize(110,35);
 		t1.setLocation(10,50);
