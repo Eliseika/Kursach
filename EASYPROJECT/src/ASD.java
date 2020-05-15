@@ -27,7 +27,7 @@ public class ASD extends JFrame {
 		l1.setSize(250,35);
 		l1.setLocation(10,10);
 		panel.add(l1);
-		
+		///414
 		JTextField t1 = new JTextField("");
 		t1.setSize(110,35);
 		t1.setLocation(10,50);
