@@ -32,7 +32,7 @@ public class ASD extends JFrame {
 		t1.setSize(110,35);
 		t1.setLocation(10,50);
 		panel.add(t1);
-		
+		//54
 		JButton button = new JButton("Кнопка"); 
 		button.setSize(110, 35); 
 		button.setLocation(10,90);
